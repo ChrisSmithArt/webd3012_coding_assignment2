@@ -2,7 +2,7 @@
 # CLONE #
 Clone the repository
 ```
-git clone https://ChrisSmithArt/webd3012_coding_assignment.git
+git clone https://github.com/ChrisSmithArt/webd3012_coding_assignment.git
 ```
 # NAVIGATION #
 Navigate to the cloned folder
