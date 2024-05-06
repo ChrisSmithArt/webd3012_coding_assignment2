@@ -1,3 +1,33 @@
+
+# CLONE #
+Clone the repository
+```
+git clone https://ChrisSmithArt/webd3012_coding_assignment.git
+```
+# NAVIGATION #
+Navigate to the cloned folder
+```
+cd webd3012_coding_assignment
+```
+# BUILD #
+
+```
+docker build -t csmith11:1.0 .
+```
+# RUN #
+
+launch the app with the following command
+``` 
+docker run -dp 3001:3000 --name chrisReact csmith11:1.0
+```
+
+# ACCESS #
+The application will be accessible at `http://localhost:3001`.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
