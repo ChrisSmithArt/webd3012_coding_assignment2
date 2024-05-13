@@ -16,5 +16,8 @@ RUN npm install react-scripts@3.4.1 -g --silent
 # add app
 COPY . ./
 
+#expose the port
+EXPOSE 7775
+
 # start app
 CMD ["npm", "start"]
